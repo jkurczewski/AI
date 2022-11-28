@@ -1,0 +1,120 @@
+body {
+  background: transparent; /* Make it white if you need */
+  color: #fcbe24;
+  padding: 0 24px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#background {
+  background-image: url("/src/bg.png");
+  height: 1040px;
+  width: 1440px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+input {
+  height: 50px;
+  border: 3px solid #421e00;
+  background-color: #ebc480;
+  font-size: 21px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #421e00;
+  padding: 0 16px;
+}
+span {
+  color: #421e00;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#input-wrapper {
+  position: relative;
+  top: 875px;
+  left: 165px;
+}
+#hunt {
+  width: 190px;
+}
+#hunt-span {
+  margin-left: -180px;
+}
+#days {
+  margin-left: 80px;
+  width: 100px;
+}
+#days-span {
+  margin-left: -90px;
+}
+#time {
+  margin-left: 120px;
+  width: 150px;
+}
+#time-span {
+  margin-left: -120px;
+}
+#start {
+  margin-left: 155px;
+  width: 348px;
+  height: 90px;
+  position: relative;
+  top: 785px;
+  left: 770px;
+  border: 4px solid #421e00;
+  background-color: #ebc480;
+  font-size: 26px;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #421e00;
+}
+#start:hover {
+  background-color: #eead3c;
+  cursor: pointer;
+}
+#start:active {
+  background-color: #d48700;
+}
+
+#map-wrapper {
+  position: relative;
+  top: 28px;
+  left: 227px;
+  display: block;
+  height: 584px;
+  width: 584px;
+  background-color: #d48700;
+}
+
+.btn {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  border: 3px solid #421e00 !important;
+  border-radius: 100px;
+  background: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.btn:hover {
+  box-shadow: 0 0 3px 8px #ffffff80;
+}
+#timer_wrapper span {
+  color: white !important;
+  font-size: 18px !important;
+}
+#timer_wrapper {
+  position: relative;
+  left: 235px;
+}
